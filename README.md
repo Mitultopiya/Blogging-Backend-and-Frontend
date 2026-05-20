@@ -94,9 +94,3 @@ This full-stack application is designed to provide a seamless user experience wi
 - **POST /api/login**: Authenticate a user and return a JWT
 - **GET /api/profile**: Get authenticated user details
 
-### Example API Call
-
-```sh
-curl -X POST http://localhost:5000/api/auth/login \
--H 'Content-Type: application/json' \
--d '{"email":"abc1@gmail.com","password":"abc1"}'
